@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
     <link rel='stylesheet' type='text/css' href='http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css'/>
     <link rel="stylesheet" href="css/index.css">
-   
+    
+    
    	
     
 </head>
@@ -17,15 +18,16 @@
 		<div>
 			<h1> Delphian Studios </h1>
 		</div>
-		<div class ="left">
-			<a href="index.html" >
+		<div class ="pull-left">
+			<a href="index.html">
 				<h3> Home </h3>
 			</a>
 		</div>
-		<div class="right">
-				<h3> Contact: delphianstudios8@gmail.com </h3>
+		<div class="pull-right">
+			<h3> Contact: delphianstudios8@gmail.com </h3>
 		</div>
 	</div>
+	<div class="container-fluid">
 	<div class="row">
 		<div class="col-md-1">
 		</div>
@@ -66,6 +68,21 @@
 		<div class="col-md-4">
 			<h1> Mystic Mountain </h1>
 			<img src="Art Prints/Mystic Mountain Reduced GB Framed.jpg"/>
+			<h3 class="middle"> Rate It. </h3>
+			<div>
+				<span class="rating">
+		        	<input type="radio" class="rating-input" id="rating-input-1-5" name="rating-input-1">
+    		    	<label for="rating-input-1-5" class="rating-star"></label>
+        			<input type="radio" class="rating-input" id="rating-input-1-4" name="rating-input-1">
+        			<label for="rating-input-1-4" class="rating-star"></label>
+		        	<input type="radio" class="rating-input" id="rating-input-1-3" name="rating-input-1">
+    		    	<label for="rating-input-1-3" class="rating-star"></label>
+        			<input type="radio" class="rating-input" id="rating-input-1-2" name="rating-input-1">
+		        	<label for="rating-input-1-2" class="rating-star"></label>
+    		    	<input type="radio" class="rating-input" id="rating-input-1-1" name="rating-input-1">
+        			<label for="rating-input-1-1" class="rating-star"></label>
+    			</span>
+    		</div>
 		</div>
 		<div class="col-md-4">
 			<h1> About </h1>
@@ -201,7 +218,26 @@
 			</div>
 		</div>
 	</div>
-	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script> 
+	</div>
+	<!--Comment section for Visitors -->
+	<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-3">
+		</div>
+		<div class="col-md-4">
+			<h3> Insights, impressions, reactions to this piece? </h3>
+			<h3> Leave your comments below! </h3>
+			<div>
+			<form>
+				<textarea id ="feedback" name="comment" placeholder="Enter your comments"></textarea>
+				<button type="submit" class="btn">Submit</button>
+			</form>
+			<div class="comments-board">
+			</div>
+		</div>
+	</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
 </body>
