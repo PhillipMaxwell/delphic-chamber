@@ -95,8 +95,7 @@ that have more percedent to stylings that have less precedent*/
     display: block;
     width: 16px;
     height: 16px;
-    background: url('bright-star.png') 0 -16px;
-/*url('http://kubyshkin.ru/samples/star-rating/star.png')  Ulternate star should bright-star.png not work*/
+    background: url('http://kubyshkin.ru/samples/star-rating/star.png') 0 -16px;
 }
 .rating-input:checked ~ .rating-star {
     background-position: 0 0;
